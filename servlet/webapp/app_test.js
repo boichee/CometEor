@@ -151,7 +151,7 @@ String.prototype.padR = function(width,pad)
 
 //            var cometdURL = 'http://173.203.90.131:8080/win4c-app/cometd';
 //            var cometdURL = 'http://173.231.136.98:8080/win4c-app/cometd';
-            var cometdURL = 'http://win4caus.com:8080/win4c-app/cometd';
+            var cometdURL = 'http://cometEor.com:8080/win4c-app/cometd';
 
             $.cometd.configure({
                 url: cometdURL,
@@ -230,7 +230,7 @@ String.prototype.padR = function(width,pad)
 				var data = message.data;
 				if ( data.userbids !== undefined ) {
 					$('#w4c-banner-wish-count').text( 'You have ' + data.userbids + ' wishes' );
-					$('#win4causes_user_area dd').text( 'You have ' + data.userbids + ' wishes available.' );
+					$('#cometEores_user_area dd').text( 'You have ' + data.userbids + ' wishes available.' );
 				}
 				if ( data.resultMessage !== undefined ) {
 					that.announce( data.resultMessage );

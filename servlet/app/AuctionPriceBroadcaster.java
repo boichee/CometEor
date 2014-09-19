@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 import java.util.Map;
 import java.util.HashMap;

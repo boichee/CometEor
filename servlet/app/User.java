@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 //	to do: add canonical class elements
 

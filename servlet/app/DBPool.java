@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 import java.sql.*;
 import javax.sql.DataSource;
@@ -21,9 +21,9 @@ public class DBPool {
 		dataSource.setUrl( "jdbc:mysql://173.231.136.147:3306/drplmain3" );
 /*
 		dataSource.setDriverClassName( "com.mysql.jdbc.Driver" );
-		dataSource.setUsername( "win4caus_U32kdq" );
+		dataSource.setUsername( "cometEor_U32kdq" );
 		dataSource.setPassword( "u9KJER)(#" );
-		dataSource.setUrl( "jdbc:mysql://localhost:3306/win4caus_drplmain" );
+		dataSource.setUrl( "jdbc:mysql://localhost:3306/cometEor_drplmain" );
 */
     }
 
@@ -43,7 +43,7 @@ public class DBPool {
     public static DataSource setupDataSource( String connectURI ) {
 		BasicDataSource ds = new BasicDataSource();
 		ds.setDriverClassName( "com.mysql.jdbc.Driver" );
-		ds.setUsername( "win4caus_U32kdq" );
+		ds.setUsername( "cometEor_U32kdq" );
 		ds.setPassword( "u9KJER)(#" );
 		ds.setUrl( connectURI );
 
@@ -51,7 +51,7 @@ public class DBPool {
     }
 
 	public void databaseTest() {
-		DataSource dataSource = setupDataSource( "jdbc:mysql://localhost:3306/win4caus_drplmain" );
+		DataSource dataSource = setupDataSource( "jdbc:mysql://localhost:3306/cometEor_drplmain" );
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rset = null;
@@ -90,9 +90,9 @@ public class DBPool {
 		try {
 			Statement stmt;
 			Class.forName("com.mysql.jdbc.Driver");
-			String url = "jdbc:mysql://localhost:3306/win4caus_drplmain";
+			String url = "jdbc:mysql://localhost:3306/cometEor_drplmain";
 
-			Connection con = DriverManager.getConnection( url, "win4caus_U32kdq", "u9KJER)(#" );
+			Connection con = DriverManager.getConnection( url, "cometEor_U32kdq", "u9KJER)(#" );
 
 			System.out.println("URL: " + url);
 			System.out.println("Connection: " + con);
@@ -120,7 +120,7 @@ public class DBPool {
     public static DataSource setupDataSource( String connectURI ) {
 		BasicDataSource ds = new BasicDataSource();
 		ds.setDriverClassName( "com.mysql.jdbc.Driver" );
-		ds.setUsername( "win4caus_U32kdq" );
+		ds.setUsername( "cometEor_U32kdq" );
 		ds.setPassword( "u9KJER)(#" );
 		ds.setUrl( connectURI );
 
@@ -128,7 +128,7 @@ public class DBPool {
     }
 
 	public void databaseTest() {
-		DataSource dataSource = setupDataSource( "jdbc:mysql://localhost:3306/win4caus_drplmain" );
+		DataSource dataSource = setupDataSource( "jdbc:mysql://localhost:3306/cometEor_drplmain" );
 		Connection conn = null;
 		Statement stmt = null;
 		ResultSet rset = null;

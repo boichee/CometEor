@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 class AuctionActionType {
 	public static final int PROCESSED_BID = 1;

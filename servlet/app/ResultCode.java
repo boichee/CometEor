@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 class ResultCode {
 	public static final int OK = 1;

@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 import java.sql.*;
 import java.util.Hashtable;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.HashMap;
 
-import com.win4causes.app.User;
-import com.win4causes.app.DatabaseException;
+import com.cometEor.app.User;
+import com.cometEor.app.DatabaseException;
 import java.util.Date;
 import java.text.DateFormat;
 

@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 public class DatabaseException extends Exception {
 	public DatabaseException() {}

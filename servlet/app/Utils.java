@@ -1,4 +1,4 @@
-package com.win4causes.app;
+package com.cometEor.app;
 
 class Utils {
 	public static int getInteger( Object obj ) {
